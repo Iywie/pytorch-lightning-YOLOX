@@ -6,7 +6,7 @@ YOLOX implemented by pytorch lightning, a simpler expression of pytorch
 
 ### COCO dataset
 ```
-_data_dir_
+data_dir
 ├── annotations  
 │   ├── train.json  
 │   ├── val.json  
