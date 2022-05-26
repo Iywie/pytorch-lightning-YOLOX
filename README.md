@@ -1,4 +1,4 @@
-# pl-YOLOX
+# pytorch-lightning-YOLOX
 YOLOX implemented by pytorch lightning, a simpler expression of pytorch
 
 ### train
@@ -18,3 +18,20 @@ The _data_dir_ of configs
 
 ### Pytorch Lightning Trainer of train.py 
 The parameters are important
+
+### The structure of our YOLOX
+    class LitYOLOX(LightningModule):
+        def __init__(self, cfgs)
+        
+        def on_train_start(self)
+        
+        def training_step(self, batch, batch_idx)
+        
+        def validation_step(self, batch, batch_idx)
+        
+        def validation_epoch_end(self, val_step_outputs)
+        
+        def configure_optimizers(self)
+        
+        def on_train_end(self)
+
