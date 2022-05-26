@@ -1,4 +1,4 @@
-# pl_YOLOX
+# pl-YOLOX
 YOLOX implemented by pytorch lightning, a simpler expression of pytorch
 
 ### train
